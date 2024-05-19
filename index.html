@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Block</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="libs/swiper/swiper-bundle.min.js" defer></script>
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/animeNames.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+<!-- Header start -->
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <!-- Nav start -->
+                <div class="nav-wrapper">
+                    <nav class="nav">
+                        <a href="#!">
+                            <img src="./image/svg/Logo.svg" alt="Logo">
+                        </a>
+    
+                        <a href="#!">
+                            <span>G</span>enre
+                        </a>
+    
+                        <a href="#!">
+                            <span>M</span>ovies
+                        </a>
+    
+                        <a href="#!">
+                            <span>A</span>bout
+                        </a>
+    
+                        <a href="#!">
+                            <span>N</span>ews
+                        </a>
+                    </nav>
+                </div>
+                
+                <!-- Nav end -->
+                
+                <!-- Header items start -->
+                <div class="header-items">
+                    <div class="header-item-premium">
+                        <a href="#!"><img src="./image/svg/Premium logo.svg" alt="Premium"></a>
+
+                        <a href="#!"><span>P</span>remium</ф>
+                    </div>
+
+                    <div class="header-item-profile">
+                        <form>
+                            <input class="search" class="input-with-icon" type="text" placeholder="Search Anime">
+                        </form>
+
+                        <a href="#!"><img src="./image/svg/Search.svg" alt="Search"> </a>
+
+                        <a href="#!"><img src="./image/svg/Profile.svg" alt="Profile"></a>
+
+                        <div class="playpause-track" onclick="playpauseTrack()">
+                            <img class="playpause-track-image" src="./image/icons8-громкий-звук-50.png">
+                        </div>
+
+                        <input type="range" min="1" max="100" value="10" class="volume_slider" onchange="setVolume()">
+                    </div>
+                </div>
+                <!-- Header items end -->
+            </div>
+        </div>
+    </header>
+<!-- Header end -->
+
+<!-- Main start -->
+<main class="main">
+    <!-- Swiper start -->
+    <section class="swiper slider">
+        <div class="swiper-wrapper">
+            <!-- Main slide start -->
+            <section class="swiper-slide slide main-anime-content-1">
+                <div class="main-anime-content">
+                    <div class="main-anime-wrapper">
+                        <h3>#1 Spotlight</h3>
+                        <h1>Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc</h1>
+
+                        <div class="main-anime-info">
+                            <div class="main-anime-info-quality">
+                                <p>PG</p>
+                                <p>4K</p>
+                                <p>DUB</p>
+                                <p>SUB</p>
+                            </div>
+
+                            <div class="main-anime-info-episod">
+                                <p>TV</p>
+                                <p>Ep 11 / 11</p>
+                                <p>24m</p>
+                            </div>
+                        </div>
+
+                        <div class="main-anime-subtitle">
+                            A boy fights... for "the right death."Hardship, regret, 
+                            shame: the negative feelings that humans feel become 
+                            Curses that lurk in our everyday lives. The Curses run 
+                            rampant throughout the world, capable of leading people 
+                            to terrible... More
+                        </div>
+
+                        <div class="buttonn-changer">
+                            <button>
+                                <img src="./image/svg/Play.svg" alt="Play">
+
+                                Watch Now
+                            </button>
+
+                            <button>
+                                <img src="./image/svg/Plus.svg" alt="Plus">
+
+                                Add to List
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="swiper-slide slide main-anime-content-2">
+                <div class="main-anime-content">
+                    <div class="main-anime-wrapper">
+                        <h3>#2 Spotlight</h3>
+                        <h1>One Piece</h1>
+    
+                        <div class="main-anime-info">
+                            <div class="main-anime-info-quality">
+                                <p>PG</p>
+                                <p>4K</p>
+                                <p>DUB</p>
+                                <p>SUB</p>
+                            </div>
+    
+                            <div class="main-anime-info-episod">
+                                <p>TV</p>
+                                <p>Ep 1072</p>
+                                <p>24m</p>
+                            </div>
+                        </div>
+    
+                        <div class="main-anime-subtitle">
+                            Gol D. Roger, known as the Pirate King, 
+                            was feared and respected for his incredible 
+                            strength and prominence in the Grand Line. 
+                            However, his capture and execution by the 
+                            World Government brought about dramatic 
+                            changes felt throughout the world. In his 
+                            final ...More
+                        </div>
+    
+                        <div class="buttonn-changer">
+                            <button>
+                                <img src="./image/svg/Play.svg" alt="Play">
+    
+                                Watch Now
+                            </button>
+    
+                            <button>
+                                <img src="./image/svg/Plus.svg" alt="Plus">
+    
+                                Add to List
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="swiper-slide slide main-anime-content-3">
+                <div class="main-anime-content">
+                    <div class="main-anime-wrapper">
+                        <h3>#3 Spotlight</h3>
+                        <h1>Jujutsu Kaisen Season 2</h1>
+
+                        <div class="main-anime-info">
+                            <div class="main-anime-info-quality">
+                                <p>PG</p>
+                                <p>4K</p>
+                                <p>DUB</p>
+                                <p>SUB</p>
+                            </div>
+
+                            <div class="main-anime-info-episod">
+                                <p>TV</p>
+                                <p>Ep 5 / 23 </p>
+                                <p>24m</p>
+                            </div>
+                        </div>
+
+                        <div class="main-anime-subtitle">
+                            A boy fights... for "the right death."Hardship, regret, 
+                            shame: the negative feelings that humans feel become 
+                            Curses that lurk in our everyday lives. The Curses run 
+                            rampant throughout the world, capable of leading people 
+                            to terrible... More
+                        </div>
+
+                        <div class="buttonn-changer">
+                            <button>
+                                <img src="./image/svg/Play.svg" alt="Play">
+                                Watch Now
+                            </button>
+
+                            <button>
+                                <img src="./image/svg/Plus.svg" alt="Plus">
+
+                                Add to List
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Main slide end -->
+        </div>
+        <div class="slider-bottom">
+            <div class="slider-pagination">
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="slider-navigation">
+                <div class="swiper-button-prev" onclick="prevTrack()"></div>
+                <div class="swiper-button-next" onclick="nextTrack()"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Swiper end -->
+
+    <!-- Catalog start -->
+    <section class="catalog">
+        <div class="container">
+            <!-- Most popular catalog start -->
+            <section class="most-popular main-catalog">
+                <div class="main-catalog-name">
+                    <a href="#!">
+                        Most Popular
+                    </a>
+
+                    <a href="#!">
+                        View more
+                    </a>
+                </div>
+
+                <div class="main-catalog-line">
+                    <a href="#!" class="main-catalog-line-block aot-banner">
+                        <p>
+                            <span>01</span> Attack on Titan
+                        </p>
+                    </a>
+                    <a href="#!" class="main-catalog-line-block piece-banner">
+                        <p>
+                            <span>02</span> One Piece
+                        </p>
+                    </a>
+                    <a href="#!" class="main-catalog-line-block naruto-banner">
+                        <p>
+                            <span>03</span> Naruto
+                        </p>
+                    </a>
+                    <a href="#!" class="main-catalog-line-block death-note-banner">
+                        <p>
+                            <span>04</span> Death Note
+                        </p>
+                    </a>
+                    <a href="#!" class="main-catalog-line-block one-punch-man-banner">
+                        <p>
+                            <span>05</span> One Punch Man
+                        </p>
+                    </a>
+                    <a href="#!" class="main-catalog-line-block demon-slayer-banner">
+                        <p>
+                            <span>06</span> Demon Slayer
+                        </p>
+                    </a>
+                </div>
+            </section>
+            <!-- Most populat catalog end -->
+
+            <!-- Top airing catalog start -->
+            <section class="top-catalog main-catalog">
+                <div class="main-catalog-name">
+                    <a href="#!">
+                        Top Airing
+                    </a>
+
+                    <a href="#!">
+                        View more
+                    </a>
+                </div>
+
+                <div class="main-catalog-line">
+                    <a href="#!" class="main-catalog-line-block tokyo-revengers-banner">
+                        <p>
+                            <span>01</span> Tokyo Revengers
+                        </p>
+                    </a>
+                    <a href="#!" class="main-catalog-line-block piece-banner">
+                        <p>
+                            <span>02</span> One Piece
+                        </p>
+                    </a>
+                    <a href="#!" class="main-catalog-line-block vinland-saga-banner">
+                        <p>
+                            <span>03</span> Vinland Saga
+                        </p>
+                    </a>
+                    <a href="#!" class="main-catalog-line-block blue-lock-banner">
+                        <p>
+                            <span>04</span> Blue Lock
+                        </p>
+                    </a>
+                    <a href="#!" class="main-catalog-line-block spy-x-family-banner">
+                        <p>
+                            <span>05</span> Spy x Family
+                        </p>
+                    </a>
+                    <a href="#!" class="main-catalog-line-block chainslaw-man-banner">
+                        <p>
+                            <span>06</span> Chainsaw Man
+                        </p>
+                    </a>
+                </div>
+            </section>
+            <!-- Top airing catalog end -->
+        </div>
+    </section>
+    <!-- Catalog end -->
+
+    <!-- Dayli anime start -->
+    <section class="dayli-anime">
+        <div class="container">
+            <div class="dayli-anime-wrapper">
+                <a href="#!">
+                    <img src="./image/dont-toy-with-me-bg.png" alt="dont-toy-with-me">
+                </a>
+                
+                <div class="dayli-anime-stat">
+                    <h1>
+                        Don't Toy with Me, Miss Nagatoro  
+                    </h1>
+
+                    <h3>
+                        2nd Season
+                    </h3>
+
+                    <p>
+                        "A girl in a lower grade just made 
+                        me cry!" One day, Senpai visits the 
+                        library after school and becomes the 
+                        target of a super sadistic junior! 
+                        The name of the girl who teases, 
+                        torments, and tantalizes Senpai is 
+                        "Nagatoro!" She's annoying yet adorable. It's painf... More
+                    </p>
+
+                    <div class="buttonn-changer dayli-anime-button">
+                        <button>
+                            <img src="./image/svg/Play.svg" alt="Play">
+
+                            Watch Now
+                        </button>
+
+                        <button>
+                            <img src="./image/svg/Plus.svg" alt="Plus">
+
+                            Add to List
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dayli anime end -->
+
+    <!-- Upcoming anime start -->
+    <section class="upcoming-anime">
+        <div class="container">
+            <div class="main-catalog-name">
+                <a href="#!">
+                    Upcoming
+                </a>
+        
+                <a href="#!">
+                    View more
+                </a>
+            </div>
+    
+            <div class="upcoming-anime-wrapper">
+                <div class="upcoming-anime-block">
+                    <a href="#!">
+                        <img src="./image/Anime-banners/Suzume-no-tojimari.png" alt="Suzume no tojimari">
+                    </a>
+    
+                    <div class="upcoming-anime-wrapper-info">
+                        <h3>
+                            Suzume no tojimari
+                        </h3>
+    
+                        <div class="upcoming-anime-action">
+                            <button >Animation</button>
+                            <button>Action</button>
+                            <button>Adventure</button>
+                        </div>
+    
+                        <p>
+                            A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.
+                            A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.
+                            A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.                      A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.                      A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.
+                            A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.                      A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.                      A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.
+                        </p>
+                    </div>
+                </div>
+                <div class="upcoming-anime-block">
+                    <a href="#!">
+                        <img src="./image/Anime-banners/Suzume-no-tojimari.png" alt="Suzume no tojimari">
+                    </a>
+    
+                    <div class="upcoming-anime-wrapper-info">
+                        <h3>
+                            Suzume no tojimari
+                        </h3>
+    
+                        <div class="upcoming-anime-action">
+                            <button >Animation</button>
+                            <button>Action</button>
+                            <button>Adventure</button>
+                        </div>
+    
+                        <p>
+                            A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.
+                            A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.
+                            A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.                      A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.                      A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.
+                            A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.                      A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.                      A modern action adventure road 
+                            story where a 17-year-old girl 
+                            named Suzume helps a mysterious 
+                            young man close doors from the 
+                            outer side that are releasing 
+                            disasters all over in Japan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Upcoming anime end -->
+</main>
+<!-- Main end -->
+
+<!-- Footer start -->
+<footer class="footer">
+    <div class="container">
+        <!-- Footer wrapper start -->
+        <section class="footer-wrapper">
+            <div class="footer-info footer-navigation">
+                <h3>
+                    Navigation
+                </h3>
+
+                <div class="footer-link">
+                    <a href="#!">
+                        Browse Popular
+                    </a>
+    
+                    <a href="#!">
+                        Browse Manga
+                    </a>
+    
+                    <a href="#!">
+                        Release Calendar
+                    </a>
+    
+                    <a href="#!">
+                        News
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-info footer-account">
+                <h3>
+                    Account
+                </h3>
+
+                <div class="footer-link">
+                    <a href="#!">
+                        Create Account
+                    </a>
+    
+                    <a href="#!">
+                        Login
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-info footer-about">
+                <h3>
+                    About
+                </h3>
+
+                <div class="footer-link">
+                    <a href="#!">
+                        Privacy Policy
+                    </a>
+    
+                    <a href="#!">
+                        Disclaimer
+                    </a>
+    
+                    <a href="#!">
+                        Help
+                    </a>
+    
+                    <a href="#!">
+                        FAQ
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-info footer-follow">
+                <h3>
+                    Follow us on
+                </h3>
+
+                <a href="#!">
+                    <img src="./image/svg/Facebook.svg" alt="Facebook">
+                </a>
+                <a href="#!">
+                    <img src="./image/svg/Insta.svg" alt="Insta">
+                </a>
+                <a href="#!">
+                    <img src="./image/svg/Twiter.svg" alt="Twiter">
+                </a>
+            </div>
+        </section>
+
+        <section class="footer-date-to-start">
+            © Copyright 2024, All Rights Reserved to Kel Productions
+        </section>
+        <!-- Footer wrapper end -->
+    </div>
+</footer>
+<!-- Footer end -->
+</body>
+</html>

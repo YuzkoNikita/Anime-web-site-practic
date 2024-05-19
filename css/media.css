@@ -1,0 +1,316 @@
+@media (max-width: 1460px) {
+    .header-item-premium a:last-child{
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+    .nav-wrapper nav {
+        column-gap: 7vh;
+    }
+}
+
+@media (max-width: 1340px) {
+    .header-item-profile a:first-child {
+        display: none;
+    }
+
+    .header-item-profile a:nth-child(2) {
+        display: block;
+    }
+
+    .main-anime-wrapper h1 {
+        font-size: 58px;
+        max-height: 14vh;
+    }
+
+    .main-anime-wrapper h3 {
+        font-size: 16px;
+    }
+
+    .main-anime-info-episod {
+        font-size: 14px;
+    }
+
+    .main-anime-subtitle {
+        font-size: 16px;
+        margin-bottom: 4vh;
+    }
+
+    .main-anime-wrapper {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .dayli-anime-wrapper {
+        display: grid;
+    }
+
+    .dayli-anime-stat {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .dayli-anime-stat p {
+        margin: 0 auto;
+    }
+
+    .dayli-anime-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .upcoming-anime-wrapper {
+        justify-content: center;
+    }
+
+    .upcoming-anime-block {
+        display: grid;
+    }
+}
+
+@media (max-width: 1085px) {
+    .upcoming-anime-block {
+        max-width: none;
+    }
+}
+ 
+@media (max-width: 1000px) {
+    .nav {
+        column-gap: 7vh;
+    } 
+
+    .nav-wrapper nav {
+        column-gap: 4vh;
+    }
+}
+
+@media (max-width: 945px) {
+    .upcoming-anime-wrapper {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 920px) {
+    .main-catalog-line a:nth-child(5) {
+        display: none;
+    }
+
+    .main-catalog-line a:nth-child(6) {
+        display: none;
+    }
+}
+
+@media (max-width: 840px) {
+    .nav {
+        font-size: 18px;
+        column-gap: 6vh;
+    }
+
+    .header-item-premium a img {
+        display: none;
+    }
+
+    .nav img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 770px) {
+    .nav a{
+        display: none;
+    }
+
+    .nav {
+        display: block;
+        position: relative;
+        width: 40px;
+        height: 3px;
+        border-radius: 2rem;
+        background-color: #fff;
+        cursor: pointer;
+        margin: 10px 0;
+    }
+
+    .nav::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: -8px;
+        width: 40px;
+        height: 3px;
+        border-radius: 2rem;
+        background-color: #fff;
+    }
+
+    .nav::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 8px;
+        width: 40px;
+        height: 3px;
+        border-radius: 2rem;
+        background-color: #fff;
+    }
+
+    .main-anime-subtitle {
+        margin: 0 auto;
+    }
+
+    .main-anime-wrapper h1 {
+        font-size: 52px;
+        text-align: center;
+        max-height: 12.5vh;
+    }
+
+    .main-anime-wrapper h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .main-anime-info {
+        justify-content: center;
+    }
+
+    .main-anime-info-episod {
+        font-size: 14px;
+    }
+
+    .main-anime-subtitle {
+        font-size: 16px;
+        margin-bottom: 4vh;
+        text-align: center;
+    }
+
+    .main-anime-info-quality {
+        margin-bottom: 10px;
+    }
+
+    .main-anime-info-quality p {
+        font-size: 12px;
+    }
+
+    .buttonn-changer {
+        justify-content: center;
+    }
+
+    .dayli-anime-stat h1 {
+        font-size: 46px;
+    }
+
+    .dayli-anime-stat h3 {
+        font-size: 16px;
+    }
+
+    .dayli-anime-stat p {
+        font-size: 14px;
+    }
+
+    .footer-wrapper {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+    }
+
+    .footer-info {
+        margin-bottom: 40px;
+    } 
+
+    .footer-info:last-child {
+        margin-bottom: 0;
+    }
+
+    .playpause-track-none {
+        display: flex;
+    }
+
+    .volume_slider-none {
+        display: flex;
+    }
+
+    .header-item-premium a img {
+        display: block;
+    }
+
+    .header-items {
+        align-items: baseline;
+    }
+}
+
+@media (max-width: 669px) {
+    .main-anime-info-episod {
+        column-gap: 35px;
+    }
+}
+
+@media (max-width: 630px) {
+    .buttonn-changer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttonn-changer button:last-child {
+        margin-top: 17px;
+        border: 1.5px solid rgb(0, 183, 255);
+    }
+
+    .main-catalog-line a:nth-child(4) {
+        display: none;
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+        top: var(--swiper-navigation-top-offset, 15%);
+    }
+
+    .main-anime-wrapper {
+        margin: 0 1vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-catalog-name {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main-catalog-name a:first-child {
+        margin-bottom: 20px;
+    }
+
+    .dayli-anime-stat h1 {
+        font-size: 38px;
+        line-height: 5vh;
+    }
+
+    .dayli-anime-stat h3 {
+        margin: 10px 0 15px 0;
+    }
+
+    .playpause-track {
+        display: none;
+    }
+
+    .volume_slider {
+        display: none;
+    }
+} 
+
+@media (max-width: 375px) {
+    .dayli-anime-stat h1 {
+        font-size: 28px;
+    }
+
+}
+@media (max-width: 330px) {
+    .main-catalog-line-block p {
+        margin: 158% 0;
+    }
+}
